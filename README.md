@@ -5,25 +5,20 @@ application up and running.
 
 Things you may want to cover:
 
-- Ruby version 3.0.2
-- Rails version 6.1.4
+* Ruby version
 
-- Redis
+* System dependencies
 
-- rails db:create db:migrate for database.
+* Configuration
 
-- rails s for run server
+* Database creation
 
-- API for gps waypoints
+* Database initialization
 
-  - post localhsot:3000/api/v1/gps
-  - paramters:
+* How to run the test suite
 
-    {
-    "latitude": 20.23,
-    "longitude": -0.56,
-    "sent_at": 2016-06-02 20:45:00",
-    "vehicle_identifier": "HA-3452"
-    }
+* Services (job queues, cache servers, search engines, etc.)
 
-- For run test rspec
+* Deployment instructions
+
+* ...
